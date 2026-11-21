@@ -35,4 +35,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: bakery-app
-          path: dist/
+          path: dists/
+          if-no-files-found: error
