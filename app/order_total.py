@@ -3,7 +3,7 @@
 DOZEN_DISCOUNT_PERCENT = 10  # 10 percent off an order of 12 or more of one item
  
  
-def order_total(price_cents, quantity):
+def get_order_total(price_cents, quantity):
     """Return the order total in cents."""
     if quantity < 1:
         raise ValueError("quantity must be at least 1")
